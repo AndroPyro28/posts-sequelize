@@ -1,0 +1,9 @@
+.page__not__found {
+    background-color: rgb(181, 228, 255);
+    height: 91.8vh;
+    overflow: hidden;
+    color:rgb(255, 255, 255);
+    display:grid;
+    place-items: center;
+
+}

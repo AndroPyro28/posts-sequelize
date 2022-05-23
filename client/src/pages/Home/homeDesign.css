@@ -1,0 +1,65 @@
+.post__container {
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    border: solid 2px rgb(145, 141, 141);
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home__header {
+    color: grey;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.eraser {
+    color: black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: pink;
+    border-radius: 5px;
+}
+.eraser:hover {
+    background-color: white;
+    color:red;
+}
+.likeIcon {
+    color: rgb(252, 106, 106);
+    margin-top: 10px;
+  }
+  .likeIcon:hover {
+      color: rgb(6, 6, 129);
+  }
+  .interaction__container {
+      background-color: rgb(222, 248, 239);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+.posts__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.title {
+    padding: 20px;
+    background-color: rgb(157, 238, 238);
+}
+.postText {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    padding: 10px;
+    background-color: rgb(157, 238, 238);
+
+}

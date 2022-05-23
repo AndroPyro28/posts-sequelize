@@ -1,0 +1,66 @@
+.creatpost__container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.input__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+   
+    width: 40%;
+    border: solid 2px blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input__container label {
+    
+    color: rgb(78, 77, 77);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.input__container button {
+    width: 83%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px blue;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.error-message {
+    transition: all 1s ease-in-out;
+    color: red;
+    font-style: normal;
+    font-weight: 500;
+ }
+.input__container button:hover {
+    background-color: white;
+    color: black;
+}
+
+.input__container input {
+    border-radius: 5px;
+    border: solid 1px grey;
+    height: 30px;
+    width: 80%;
+    outline: none;
+    padding-left: 10px;
+}
